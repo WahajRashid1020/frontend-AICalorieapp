@@ -2,7 +2,7 @@ import React from "react";
 
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { vi } from "vitest";
-import "@testing-library/jest-dom"; // for matchers like toBeInTheDocument
+import "@testing-library/jest-dom";
 import App from "./App";
 import * as api from "./services/api";
 

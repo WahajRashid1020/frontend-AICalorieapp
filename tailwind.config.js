@@ -1,4 +1,3 @@
-// tailwind.config.js
 module.exports = {
   darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
@@ -6,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          primary: "#a855f7", // purple
+          primary: "#a855f7",
         },
       },
     },
