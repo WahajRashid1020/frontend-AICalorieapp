@@ -105,7 +105,7 @@ export default function App() {
         <textarea
           className="w-full p-4 text-white bg-white/10 placeholder-gray-400 border border-white/20 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-purple-500"
           rows={5}
-          placeholder="e.g. eggs, spinach, olive oil"
+          placeholder="e.g. eggs, spinach, olive oil or weight gain meal or weight loss meal with high protien"
           value={mealInput}
           onChange={(e) => setMealInput(e.target.value)}
         />
