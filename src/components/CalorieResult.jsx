@@ -52,6 +52,21 @@ const CalorieResult = ({ data }) => {
                 <th className="p-3 text-sm font-semibold text-gray-300 text-right">
                   Calories
                 </th>
+                <th className="p-3 text-sm font-semibold text-gray-300 text-right">
+                  Protein
+                </th>
+                <th className="p-3 text-sm font-semibold text-gray-300 text-right">
+                  Carbs
+                </th>
+                <th className="p-3 text-sm font-semibold text-gray-300 text-right">
+                  Fat
+                </th>
+                <th className="p-3 text-sm font-semibold text-gray-300 text-right">
+                  Fiber
+                </th>
+                <th className="p-3 text-sm font-semibold text-gray-300 text-right">
+                  Sugar
+                </th>
               </tr>
             </thead>
             <tbody>
